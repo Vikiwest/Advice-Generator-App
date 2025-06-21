@@ -22,27 +22,27 @@ Firstly i set up my files html, css and javascript files, then i went ahead to s
 
 
 ##Built with
--HTML
--CSS
--JAVASCRIPT
+- HTML
+- CSS
+- JAVASCRIPT
 
 #What i learned
 
 What i learned from the html and css.
 
--I learned that i should know how to structure my elements, so that it does not cause conflicts when building.
+- I learned that i should know how to structure my elements, so that it does not cause conflicts when building.
 
 What i learned was from the javascript.
 
 - I learned that performing a Dom manipulation, using document.querySelector, when trying to use class names which entails that a dot should be added before the class name 
 (document.querySelector(".description");
 
--When using document.getElementById, i should make sure to have an id assigned to the html element in the document which will be used to get the element id in the javascript function.
+- When using document.getElementById, i should make sure to have an id assigned to the html element in the document which will be used to get the element id in the javascript function.
 
 ##Continued Development
-I want to continue working on projects that uses dom manipulation and api integrations because my weakness is in this api integration.
+- I want to continue working on projects that uses dom manipulation and api integrations because my weakness is in this api integration.
 
 ##Useful resources
--i made use of chatgpt for some road blocks i had while building
+- I made use of chatgpt for some road blocks i had while building
 
 
