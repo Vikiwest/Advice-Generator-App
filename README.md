@@ -11,3 +11,8 @@ This challenge is to build out an advice generator app using the Advice Slip API
 ##Screenshot
 ![screenshot](./images/Advice-Generator-Desktop.png)
 ![screenshot](./images/Advice-Generator-Mobile.png)
+
+
+### Links
+- Live Site URL: [your live link]
+- Solution URL: [your solution repo link]
