@@ -44,6 +44,12 @@ body {
   margin-top: -25px;
 }
 
+.dice-button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+
 .divider-desktop {
   align-items: center;
   margin: auto;
