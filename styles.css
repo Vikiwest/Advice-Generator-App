@@ -1,0 +1,240 @@
+body {
+  background-color: hsl(193, 38%, 86%);
+  font-family: "Manrope", sans-serif;
+}
+
+.first-colored-box {
+  background-color: hsl(218, 23%, 16%);
+  width: 1440px;
+  height: 70vh;
+  margin: 0 auto;
+  align-items: center;
+  margin-top: 7%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.second-colored-box {
+  background-color: hsl(217, 19%, 24%);
+  width: 500px;
+  text-align: center;
+  padding: 20px 30px 50px 30px;
+  border-radius: 15px;
+}
+
+.advice-title {
+  color: hsl(150, 100%, 66%);
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.description {
+  font-size: 28px;
+  color: white;
+  font-weight: 800;
+  text-align: center;
+}
+
+.dice-button {
+  background-color: hsl(150, 100%, 66%);
+  border: none;
+  padding: 15px 15px 12px 15px;
+  border-radius: 50%;
+  margin-top: -25px;
+}
+
+.divider-desktop {
+  align-items: center;
+  margin: auto;
+}
+
+.divider-mobile {
+  display: none;
+}
+
+.dice-button:hover {
+  background-color: hsl(150, 100%, 76%);
+  cursor: pointer;
+}
+
+@media (max-width: 1440px) {
+  .first-colored-box {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 40%;
+    text-align: center;
+    padding: 20px 30px 50px 30px;
+    border-radius: 15px;
+  }
+
+  .description {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+  .advice-title {
+    font-size: 12px;
+  }
+
+  .dice-button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 1024px) {
+  .first-colored-box {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 70%;
+    text-align: center;
+    padding: 20px 30px 50px 30px;
+    border-radius: 15px;
+  }
+
+  .description {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .advice-title {
+    font-size: 12px;
+  }
+
+  .dice-button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .first-colored-box {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 70%;
+    text-align: center;
+    padding: 20px 30px 50px 30px;
+    border-radius: 15px;
+  }
+
+  .description {
+    font-size: 22px;
+    line-height: 1.5;
+  }
+
+  .advice-title {
+    font-size: 12px;
+  }
+
+  .dice-button img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 645px) {
+  .first-colored-box {
+    width: 90%;
+    height: 70vh;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 15px;
+  }
+
+  .description {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+
+  .divider-desktop {
+    display: none;
+  }
+  .divider-mobile {
+    align-items: center;
+    display: flex;
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+  .first-colored-box {
+    width: 85%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding: 20px 30px 50px 30px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 320px) {
+  .first-colored-box {
+    width: 95%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .second-colored-box {
+    width: 60%;
+    text-align: center;
+    margin-top: 5%;
+    border-radius: 15px;
+    padding: 20px 30px 50px 30px;
+  }
+
+  .description {
+    font-size: 18px;
+  }
+}
