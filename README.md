@@ -29,9 +29,11 @@ Firstly i set up my files html, css and javascript files, then i went ahead to s
 #What i learned
 
 What i learned from the html and css.
+
 -I learned that i should know how to structure my elements, so that it does not cause conflicts when building.
 
 What i learned was from the javascript.
+
 - I learned that performing a Dom manipulation, using document.querySelector, when trying to use class names which entails that a dot should be added before the class name 
 (document.querySelector(".description");
 
